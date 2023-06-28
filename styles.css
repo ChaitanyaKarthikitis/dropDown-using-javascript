@@ -1,0 +1,60 @@
+*{
+    font-family: sans-serif;
+}
+
+#input{
+    background-color: rgb(237, 237, 237);
+    border: none;
+    padding: 0.38em;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+
+}
+
+#input:focus{
+    border: none;
+    outline: none;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+}
+
+.submit-btn{
+    background-color: rgb(83, 139, 243);
+    border: none;
+    padding: 0.5em;
+    color: white;
+    cursor: pointer;
+    margin-left: -0.5em;
+  
+}
+
+.autocomplete--wrapper{
+    list-style: none;
+    padding: unset;
+    margin: unset;
+    position: absolute;
+    width: 80%;
+   
+    
+}
+
+.autocomplete--wrapper button{
+    border: none;
+    background-color: white;
+    outline: none;
+    border: 1px solid rgb(176, 174, 174);
+    border-top: none;
+    margin: 0;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+    text-align: left;
+}
+
+.autocomplete--wrapper button:hover{
+    background-color: rgb(231, 228, 228);
+}
